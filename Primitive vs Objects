@@ -1,0 +1,6 @@
+Strings can not be compared using the == operator because they are objects.
+== is meant to compare primitives.
+
+The second method definition is correct because we can take part of the string Object, and
+parse it into a primitive data type of char. We can then compare char with the == operator.
+if the length of the string is equal to one, we know that "Q" and only "Q" was entered.
